@@ -1,0 +1,144 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#fondo1{
+    background-image: url(img/header/fondo1.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+/*  background-color: rgba(0,0,0,0.6);*/
+}
+/*
+#fondo1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    /* background: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,0.7));
+     background-color: rgba(0,0,0,0.6);
+
+}
+
+*/
+
+#fondo2{
+    background-image: url(img/header/fondo2.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+#fondo3{
+
+   background-color: rgba(0,0,0,0.7);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+
+.container{
+
+   /* background-image: url(img/header/fondo1.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    */
+    
+    width: 100%;
+     height: 900px;
+    /*Flexbox*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+   
+}
+
+
+
+.box{
+    padding: 80px;
+    width: 700px;
+    
+}
+
+
+.box2{
+    
+}
+
+.box .forma{
+   
+    text-align: left;
+    font: normal normal bold 46px/56px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.form{
+    flex-direction: column;
+    gap: 10%;
+    height: 300px;
+    display: flex;
+    background-color:brown;
+    align-items: center;
+   
+ 
+   
+}
+
+#obtener{
+
+    
+width: 193px;
+height: 151px;
+
+background: transparent linear-gradient(180deg, #F6E687 0%, #7C4D20 100%) 0% 0% no-repeat padding-box;
+border: 1px solid #D6AD78;
+border-radius: 35px;
+opacity: 1;
+}
+
+.esc{
+    /* Layout Properties */
+
+
+width: 355px;
+height: 67px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 24px;
+opacity: 1;
+}
+
+#recibe{
+width: 10%;
+height: 10%;
+text-align: center;
+font: normal normal medium 23px/27px Raleway;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+}
+
+
+
+/*
+.left{
+ top: 288px;
+left: 322px;
+width: 662px;
+height: 198px;
+text-align: left;
+font: normal normal bold 56px/66px Raleway;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}*/
