@@ -69,10 +69,6 @@
 }
 
 
-.box2{
-    
-}
-
 .box .forma{
    
     text-align: left;
@@ -84,21 +80,18 @@
 
 .form{
     flex-direction: column;
-    gap: 10%;
-    height: 300px;
+    gap: 8px;
     display: flex;
-    background-color:brown;
+   padding: 20px;
+    background-color:black;
     align-items: center;
-   
- 
    
 }
 
 #obtener{
-
     
-width: 193px;
-height: 151px;
+
+    padding: 4px 12px;
 
 background: transparent linear-gradient(180deg, #F6E687 0%, #7C4D20 100%) 0% 0% no-repeat padding-box;
 border: 1px solid #D6AD78;
@@ -107,28 +100,60 @@ opacity: 1;
 }
 
 .esc{
-    /* Layout Properties */
 
-
-width: 355px;
-height: 67px;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 24px;
 opacity: 1;
+width: 100%;
+padding: 4px 12px;
+
 }
 
 #recibe{
-width: 10%;
-height: 10%;
+
+    text-align: center;
+font: normal normal medium 53px/57px Raleway;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+font-size: 13px;
+}
+
+#desc{
+
 text-align: center;
-font: normal normal medium 23px/27px Raleway;
+font: normal normal medium 53px/57px Raleway;
 letter-spacing: 0px;
 color: #FFFFFF;
 text-transform: uppercase;
 opacity: 1;
 }
 
+/*------------------------------------*/
 
+
+.royals{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 150px;
+}
+
+
+#cara{
+    position: absolute;
+    
+}
+
+#gold{
+    position: relative;
+ 
+width: 602px;
+height: 385px;
+background: transparent linear-gradient(180deg, #F6E687 0%, #7C4D20 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
 
 /*
 .left{
