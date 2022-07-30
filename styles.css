@@ -66,8 +66,7 @@
 
 .box{
     padding: 80px;
-    width: 700px;
-    
+    width: 700px;  
 }
 
 
@@ -137,22 +136,21 @@ opacity: 1;
 /*------------------------------------*/
 
 #royal{
- /*   display: flex;
-        justify-content: center;
-   */
-    background-color: #D6AD78;
-    width: 100%;
+   display: flex;
+        padding: 150px;
+        width: 100%;
+    
+       flex-direction: row;
+       align-items: center;
+       
+
+    justify-content: center;
+
+    gap: 200px;
+ 
 }
 
-.royals{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding: 150px;
-    gap: 400px;
-    background-color: aqua;
-    width: 100%;
-}
+
 
 #nivel{
     text-align: left¡;
@@ -176,6 +174,14 @@ opacity: 1;
 
 }
 
+#parrafo{
+    width: 558px;
+    height: 267px;
+    text-align: left;
+font: normal normal medium 18px/30px Raleway;
+letter-spacing: 0px;
+color: #161D37;
+}
 .caragold{
     position: relative;
     display: flex;
@@ -215,8 +221,24 @@ opacity: 1;
 
 #somos{
     width: 443px;
-    height: 49px;
+    height: 59px;
     
     font: normal normal bold 42px/49px Raleway;
     gap: 20px;
+}
+
+.videox{
+    position: relative;
+   
+    
+  
+}
+
+.ceja{
+   
+}
+
+#play{
+    position: absolute;
+    
 }
